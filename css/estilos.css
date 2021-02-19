@@ -89,11 +89,11 @@ valores */
     /* text-decoration: dashed; */
   }
   h1 strong {
-    color: #f883f7;
+    color:#9C160C;
     ;
   }
   h2 {
-    color: #f883f7
+    color:white;
     ;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
@@ -146,6 +146,7 @@ valores */
     border-bottom-right-radius: 10px; */
     /* margin: 10px; */
     margin-bottom: 15px;
+    margin: 10px;
     /* margin-right
     margin-left
     margin-top */
@@ -167,7 +168,8 @@ valores */
   }
   .project-description {
     font-size: 20px;
-    color:white
+    color:white;
+  
   }
   .project strong {
     font-family: 'Fjalla One', sans-serif;
@@ -180,7 +182,7 @@ valores */
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
-    color: #f883f7
+    color: #9C160C;
     ;
 
   }
@@ -259,7 +261,7 @@ valores */
   
   .footer {
     color: white;
-    background-color:purple;
+    background-color:#9C160C;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -292,7 +294,7 @@ valores */
     background: #f4fbff;
   }
   .experience-title{
-    color:#f883f7
+    color:#9C160C
   }
   .experience-imageContainer {
     font-size: 0;
@@ -316,7 +318,7 @@ valores */
   }
   
   .experience-url {
-    color:#f883f7;
+    color: #9C160C;
     border: 1px solid;
     padding: 5px 20px;
     text-decoration: none;
@@ -403,7 +405,7 @@ valores */
     top: 5px;
     line-height: 40px;
     text-align: center;
-    color: #f883f7;
+    color: #9C160C;
     cursor: pointer;
     z-index: 4;
     display: none;
@@ -495,7 +497,8 @@ valores */
       display: flex;
       align-items: center;
       z-index: 3;
-      background-color: #f883f7;
+      opacity: .9;
+      background-color: #9C160C;
       justify-content: center;
       transition: .3s;
     }
@@ -566,7 +569,7 @@ valores */
   @media screen and (max-width: 320px) {
     h1 {
       font-size: 1.2em;
-      background:purple;
+      background:black;
     }
   }
   
